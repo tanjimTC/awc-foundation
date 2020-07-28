@@ -4,11 +4,11 @@ import "./Hero.css";
 const Hero = () => {
   return (
     <div>
-      <div class="page">
+      <div className="page">
         <Header />
       </div>
       <div id="splash">
-        <div class="anim">
+        <div className="anim">
           <div id="loader">
             <svg version="1.1" width="60px" height="70px" viewBox="0 0 60 70">
               <defs>
@@ -31,7 +31,7 @@ const Hero = () => {
               <g id="shadow" transform="scale(.9)">
                 <path
                   fill="#000"
-                  fill-opacity="0.3"
+                  fillOpacity="0.3"
                   d="M0.677,20.977l4.355,1.631c0.281,0.104,0.579,0.162,0.88,0.16l9.76-0.004L30.46,41.58c0.27,0.34,0.679,0.545,1.112,0.541
                     h1.87c0.992,0,1.676-0.992,1.322-1.918l-6.643-17.439l6.914,0.002l6.038,6.037c0.265,0.266,0.624,0.412,0.999,0.418l1.013-0.004
                     c1.004-0.002,1.684-1.012,1.312-1.938l-2.911-7.277l2.912-7.278c0.372-0.928-0.313-1.941-1.313-1.938h1.017

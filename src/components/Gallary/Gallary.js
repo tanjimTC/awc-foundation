@@ -11,7 +11,7 @@ const Gallary = () => {
           <q className="description">...Because every picture tells story</q>
         </div>
       </div>
-      <div class=" gallery-images">
+      <div className=" gallery-images">
         <img
           src="https://mediaprocessor.websimages.com//https://abdulwahidchowdhuryfoundation.webs.com/photos/DSC00255%20(FILEminimizer).JPG"
           alt="AWC-Foundation"
@@ -45,7 +45,11 @@ const Gallary = () => {
       </div>{" "}
       <br /> <br />
       <div className="text-center">
-        <a style={{ textDecoration: "none" }} href="#" class="gallery-button">
+        <a
+          style={{ textDecoration: "none" }}
+          href="haha"
+          className="gallery-button"
+        >
           See More photos
         </a>
       </div>

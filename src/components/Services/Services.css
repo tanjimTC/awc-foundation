@@ -62,7 +62,7 @@ ul {
 .section-services .single-service {
     margin-top: 40px;
     border: 1px solid transparent;
-    background-color: #24252a;
+    background-color: #2e313c;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
     transition: 0.4s all ease-in;
     -webkit-transition: 0.4s all ease-in;
@@ -84,7 +84,6 @@ ul {
 
 .section-services .single-service .part-1 {
     padding: 40px 40px 25px;
-    border-bottom: 2px solid #1d1e23;
 }
 
 .section-services .single-service .part-1 i {

@@ -1,0 +1,10 @@
+.footer {
+    padding: 20px 0;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .footer p {
+        font-size: 14px;
+    }
+}

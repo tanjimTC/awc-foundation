@@ -1,0 +1,34 @@
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    124deg,
+    rgba(203, 50, 84, 1) 18%,
+    rgba(247, 0, 55, 1) 65%
+  );
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(
+    to right,
+    #222,
+    #333,
+    #444,
+    #555,
+    #444,
+    #333,
+    #222
+  );
+  border: 1px solid #888;
+}
+
+.App {
+  overflow: hidden;
+}

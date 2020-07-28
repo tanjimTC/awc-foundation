@@ -1,0 +1,183 @@
+.section-contact {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-family: "Poppins", sans-serif;
+    background-color: #211f24;
+    color: #fff;
+}
+
+.section-contact .header-section {
+    margin-bottom: 20px;
+}
+
+.section-contact .header-section .title {
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-contact .header-section .title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 140px;
+    height: 1px;
+    background-color: #f70037;
+}
+
+.section-contact .header-section .title:after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 45px;
+    height: 3px;
+    background-color: #f70037;
+}
+
+.section-contact .header-section .title span {
+    color: #f70037;
+}
+
+.section-contact .header-section .description {
+    color: #6f6f71;
+}
+
+/* Second part */
+
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.btn,
+.btn:focus {
+    color: #fff;
+    background-color: #182c39;
+    margin: 10px auto;
+    font-weight: 500;
+    display: table;
+    padding: 5px 10px;
+    border: 1px solid #182c39;
+    margin-left: 50%;
+    border-radius: 0;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #182c39;
+    background-color: transparent;
+    border: 1px solid #182c39;
+}
+
+.hr-h3s {
+    border: 3px solid #E94B3C;
+    width: 70px;
+    margin: 0 auto 35px auto;
+}
+
+
+textarea {
+    resize: none;
+}
+
+#contact {
+    align-items: center;
+    padding: 40px 60px;
+}
+
+.bg-section h2 {
+    font-family: 'Leckerli One', cursive;
+    text-transform: none;
+    margin: 50px 0;
+    padding: 25px 20px;
+    border-radius: 50px;
+}
+
+
+
+/* ******* Contact ******* */
+.contact-right {
+    background-color: #373942;
+    padding: 40px 30px 20px 30px;
+    box-sizing: border-box;
+    border: 2px solid #F70037;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    border: 1px solid #000;
+    border-radius: 0;
+
+
+}
+
+#contact .form-group input:hover,
+#contact .form-group textarea:hover {
+    border-color: #ababee;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+
+}
+
+#contact .contact-buttons input,
+#contact .contact-buttons input:focus {
+    color: #fff;
+    background-color: #F70037;
+    margin: 10px 20px 5px auto;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 8px 20px;
+    border: 1px solid #182c39;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    transition: 0.3s all ease-in;
+    -webkit-transition: 0.3s all ease-in;
+    -moz-transition: 0.3s all ease-in;
+    -ms-transition: 0.3s all ease-in;
+    -o-transition: 0.3s all ease-in;
+}
+
+#contact .contact-left .left-box i {
+    font-size: 22px;
+    color: #f70037;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#contact .contact-buttons input:hover {
+    color: #182c39;
+    background-color: #fff;
+
+}
+
+@media only screen and (max-width: 600px) {
+    #contact .contact-left .left-box i {
+        font-size: 16px;
+        color: #f70037;
+        margin-right: 8px;
+        margin-bottom: 15px;
+    }
+
+    #contact .contact-left .left-box p {
+        font-size: 14px;
+    }
+
+    #contact {
+        align-items: center;
+        padding: 30px 15px;
+    }
+}

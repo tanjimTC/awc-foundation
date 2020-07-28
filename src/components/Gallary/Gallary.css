@@ -1,111 +1,111 @@
 .section-gallery {
-    padding-top: 110px;
-    padding-bottom: 120px;
-    font-family: "Poppins", sans-serif;
-    background-color: #fff;
-    color: #211f24;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #211f24;
 }
 
 .section-gallery .header-section {
-    margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .section-gallery .header-section .title {
-    position: relative;
-    margin-bottom: 40px;
-    padding-bottom: 25px;
-    text-transform: uppercase;
-    font-weight: 700;
+  position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .section-gallery .header-section .title:before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 140px;
-    height: 1px;
-    background-color: #f70037;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  height: 1px;
+  background-color: #f70037;
 }
 
 .section-gallery .header-section .title:after {
-    content: "";
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 45px;
-    height: 3px;
-    background-color: #f70037;
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 45px;
+  height: 3px;
+  background-color: #f70037;
 }
 
 .section-gallery .header-section .title span {
-    color: #f70037;
+  color: #f70037;
 }
 
 .section-gallery .header-section .description {
-    color: #6f6f71;
-    width: 100%;
-    text-align: center;
-    margin: auto;
+  color: #6f6f71;
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 .gallery-images {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery-images img {
-    width: 500px;
-    height: 400px;
-    margin: 15px;
-    transition: transform 3s;
-    border: 5px solid #211F24;
-    -webkit-transition: transform 3s;
-    -moz-transition: transform 3s;
-    -ms-transition: transform 3s;
-    -o-transition: transform 3s;
+  width: 500px;
+  height: 400px;
+  margin: 15px;
+  transition: transform 3s;
+  border: 5px solid #211f24;
+  -webkit-transition: transform 3s;
+  -moz-transition: transform 3s;
+  -ms-transition: transform 3s;
+  -o-transition: transform 3s;
 }
 
 .gallery-images img:hover {
-    transform: scale(1.07);
-    -webkit-transform: scale(1.07);
-    -moz-transform: scale(1.07);
-    -ms-transform: scale(1.07);
-    -o-transform: scale(1.07);
+  transform: scale(1.07);
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
 }
 
 .gallery-button {
-    display: inline-block;
-    padding: 0.3em 0.9em;
-    font-size: 1rem !important;
-    background-color: #F70037;
-    color: #fff;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
-    transition: 0.3s all ease-in;
-    -webkit-transition: 0.3s all ease-in;
-    -moz-transition: 0.3s all ease-in;
-    -ms-transition: 0.3s all ease-in;
-    -o-transition: 0.3s all ease-in;
+  display: inline-block;
+  padding: 0.3em 0.9em;
+  font-size: 1rem !important;
+  background-color: #f70037;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s all ease-in;
+  -webkit-transition: 0.3s all ease-in;
+  -moz-transition: 0.3s all ease-in;
+  -ms-transition: 0.3s all ease-in;
+  -o-transition: 0.3s all ease-in;
 }
 
 .gallery-button:hover {
-    background-color: #24252A;
-    color: #F70037;
+  background-color: #24252a;
+  color: #f70037;
 }
 
 @media only screen and (max-width: 600px) {
-    .gallery-images img {
-        width: 300px;
-        height: 250px;
-        margin: 15px;
-        transition: transform 1s;
-        border: 5px solid #211F24;
-    }
+  .gallery-images img {
+    width: 350px;
+    height: 300px;
+    margin: 15px;
+    transition: transform 1s;
+    border: 5px solid #211f24;
+  }
 }
