@@ -100,7 +100,7 @@ const Contact = () => {
                     className="form-control"
                     rows="3"
                     id="comment"
-                    placeholder="Description"
+                    placeholder="Message"
                   ></textarea>
                 </div>
                 <div className="contact-buttons pull-left">
