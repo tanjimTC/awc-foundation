@@ -11,8 +11,7 @@ const Header = () => {
           </h1>{" "}
           <br />
           <i className="intro__subtitle">
-            Helping the distress people and trying to contribute to the socity
-            to fight against poverty and make a educated nation....
+            Helping the distressed peoples and trying to contribute to society to fight against poverty and make an educated nation...
           </i>{" "}
           <br /> <br />
           <Link
