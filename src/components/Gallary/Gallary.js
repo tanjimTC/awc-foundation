@@ -1,8 +1,9 @@
 import React from "react";
 import "./Gallary.css";
+import { Link } from "react-router-dom";
 const Gallary = () => {
   return (
-    <div className="section-gallery">
+    <div className="section-gallery" id="photos">
       <div className="header-section">
         <h2 className="title text-center">
           <span>Photos</span>
@@ -45,13 +46,13 @@ const Gallary = () => {
       </div>{" "}
       <br /> <br />
       <div className="text-center">
-        <a
+        <Link
           style={{ textDecoration: "none" }}
-          href="haha"
+          to="/photos"
           className="gallery-button"
         >
           See More photos
-        </a>
+        </Link>
       </div>
     </div>
   );

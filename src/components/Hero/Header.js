@@ -1,8 +1,9 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="container">
+    <div className="container" id="home">
       <div className="row  d-flex justify-content-center align-items-center header-container">
         <div className="col-md-6">
           <h1 className="intro__title">
@@ -14,9 +15,13 @@ const Header = () => {
             to fight against poverty and make a educated nation....
           </i>{" "}
           <br /> <br />
-          <a style={{ textDecoration: "none" }} href="link" className="button">
+          <Link
+            style={{ textDecoration: "none" }}
+            to="/photos"
+            className="button"
+          >
             See our work
-          </a>
+          </Link>
         </div>
         <div className="col-md-6 logo-image">
           <img

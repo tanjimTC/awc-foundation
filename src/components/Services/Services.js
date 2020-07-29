@@ -2,7 +2,7 @@ import React from "react";
 import "./Services.css";
 const Services = () => {
   return (
-    <section className="section-services">
+    <section className="section-services" id="service">
       <div className="container">
         <div className="row justify-content-center text-center">
           <div className="col-md-10 col-lg-8">

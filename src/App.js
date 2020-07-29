@@ -1,23 +1,26 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import Hero from "./components/Hero/Hero";
-import Services from "./components/Services/Services";
-import Gallary from "./components/Gallary/Gallary";
-import Contact from "./components/Contact/Contact";
-import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Home from "./containers/Home";
+import Photos from "./containers/Photos";
+import PageNotFound from "./components/PageNotFound/PageNotFound";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Hero />
-      <Services />
-      <About />
-      <Gallary />
-      <Contact />
-      <Footer />
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/photos">
+            <Photos />
+          </Route>
+          <Route path="*">
+            <PageNotFound />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
