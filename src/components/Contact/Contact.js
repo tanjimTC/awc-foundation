@@ -21,32 +21,36 @@ const Contact = () => {
                 </h5>
                 <br />
                 <address>
-                  <p>
-                    <i className="fas fa-map-marker-alt"> </i> 19/1 Rajargoli ,
-                    Sylhet
-                  </p>
-                  <p>
-                    <i className="fas fa-phone-alt"></i>
-                    01715141738 , 01672217641
-                  </p>
-                  <p>
-                    <i className="fas fa-envelope"></i>
-                    monjurulchy71@gmail.com
-                  </p>
-                  <p>
-                    <i className="fas fa-university"></i>
-                    SB A/C No-11521060010573 <br />
-                    <i
-                      style={{ color: "transparent" }}
-                      className="fas fa-university"
-                    ></i>
-                    Prime Bank Limited,IBB, Ambarkhana, <br />
-                    <i
-                      style={{ color: "transparent" }}
-                      className="fas fa-university"
-                    ></i>
-                    Sylhet Bangladesh.
-                  </p>
+                  <div className="d-flex">
+                    <p>
+                      <i className="fas fa-map-marker-alt"> </i>
+                    </p>
+                    <p>19/1 Rajargoli ,Sylhet</p>
+                  </div>
+                  <div className="d-flex">
+                    <p>
+                      <i className="fas fa-phone-alt"></i>
+                    </p>
+                    <p>
+                      01715141738 <br /> 01672217641
+                    </p>
+                  </div>
+                  <div className="d-flex">
+                    <p>
+                      <i className="fas fa-envelope"></i>
+                    </p>
+                    <p>monjurulchy71@gmail.com</p>
+                  </div>
+                  <div className="d-flex">
+                    <p>
+                      <i className="fas fa-university"></i>
+                    </p>
+                    <p>
+                      SB A/C No-11521060010573 <br />
+                      Prime Bank Limited,IBB, Ambarkhana, <br />
+                      Sylhet Bangladesh.
+                    </p>
+                  </div>
                 </address>
               </div>
             </div>
